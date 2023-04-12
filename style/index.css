@@ -304,7 +304,7 @@ article {
 aside {
     position: absolute;
     top: 50vw;
-    right: 2vh;
+    right: 3vw;
     display: flex;
     overflow: hidden; 
     background-color: #013047;  
@@ -313,6 +313,9 @@ aside {
 .icon-menu .menu {
     display: flex;
     transition: 0.3s all
+}
+.icon-menu:hover {
+    cursor: pointer;
 }
 .menu {
     position: relative;
@@ -324,8 +327,8 @@ aside {
 #barra-menu {
     display: flex;
     background-color: #013047;
-    height: 30vh;
-    width: 0px;
+    height: 70vw;
+    width: 30vw;
     transition: 0.3s all;
 }
 #barra-menu ul li {
@@ -335,7 +338,7 @@ aside {
 #barra-menu ul li a {
     color: #fff;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 3vw;
     width: 100%;
 }
 .c-icon {
@@ -345,6 +348,7 @@ aside {
     text-align: center;
     gap: 15px;
     overflow: hidden;
+    background-color: transparent;
 }
 #barra-menu ul li a:hover {
     border: solid 1px #101010;
